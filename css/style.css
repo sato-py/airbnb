@@ -173,7 +173,7 @@ a {
 .p-home__mainvisual {
   height: 600px;
   background: #ccc;
-  background-image: url(/img/mainVisual.jpg);
+  background-image: url(img/mainVisual.jpg);
   background-size: cover;
   background-position: center bottom;
   display: flex;
