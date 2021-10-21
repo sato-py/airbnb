@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb 模写コーディング</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="p-header">
+    <div class="container">
+      <div class="p-header__logo">
+        <img src="img/logo.svg" width="168px" height="30px" alt="">
+      </div>
+      <div class="p-header__nav">
+        <div class="p-header__nav__head">
+          <ul class="p-header__nav__list">
+            <li class="p-header__nav__list__item"><a href="">宿泊先</a></li>
+            <li class="p-header__nav__list__item"><a href="">体験</a></li>
+            <li class="p-header__nav__list__item"><a href="">オンライン体験</a></li>
+          </ul>
+        </div>
+        <div class="p-header__nav__body">
+          <div class="p-header__nav__search">
+            <ul class="p-header__nav__search__list">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="p-header__action">
+        <ul class="p-header__action__list">
+          <li><a href="">ホストになる</a></li>
+          <li><a href="">G</a></li>
+          <li><a href="">B</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- メイン -->
+  <main class="p-home">
+    <div class="p-home__mainvisual">
+      <div class="container">
+        <div class="p-home__mainvisual__text">
+        <p class="c-text__lv1">自然を近くに感じる旅</p>
+        <p class="c-description__lv1">Airbnbが選ぶお気に入り</p>
+        <a href="" class="c-button c-button--small">アイディアを得る</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <!-- 周辺エリアを探索 -->
+      <section class="p-home__section">
+        <div class="p-home__section__head">
+          <h3 class="c-text__lv3">周辺エリアを探索</h3>
+        </div>
+        <div class="p-home__section__body">
+          <ul class="p-arealist">
+            <li class="p-arealist__item">
+              <div class="p-arealist__item__image">
+                <div class="c-image" style="background-image: url(img/area__01.jpg);"></div>
+              </div>
+              <div class="p-arealist__item__text">
+                <div class="c-text__lv4">東京</div>
+                <div class="c-text__lv3">車で15分</div>
+              </div>
+            </li>
+            <li class="p-arealist__item">
+              <div class="p-arealist__item__image">
+                <div class="c-image" style="background-image: url(img/area__02.jpg);"></div>
+              </div>
+              <div class="p-arealist__item__text">
+                <div class="c-text__lv4">東京</div>
+                <div class="c-text__lv3">車で15分</div>
+              </div>
+            </li>
+            <li class="p-arealist__item">
+              <div class="p-arealist__item__image">
+                <div class="c-image" style="background-image: url(img/area__03.jpg);"></div>
+              </div>
+              <div class="p-arealist__item__text">
+                <div class="c-text__lv4">東京</div>
+                <div class="c-text__lv3">車で15分</div>
+              </div>
+            </li>
+            <li class="p-arealist__item">
+              <div class="p-arealist__item__image">
+                <div class="c-image" style="background-image: url(img/area__04.jpg);"></div>
+              </div>
+              <div class="p-arealist__item__text">
+                <div class="c-text__lv4">東京</div>
+                <div class="c-text__lv3">車で15分</div>
+              </div>
+            </li>
+            <li class="p-arealist__item">
+              <div class="p-arealist__item__image">
+                <div class="c-image" style="background-image: url(img/area__05.jpg);"></div>
+              </div>
+              <div class="p-arealist__item__text">
+                <div class="c-text__lv4">東京</div>
+                <div class="c-text__lv3">車で15分</div>
+              </div>
+            </li>
+            <li class="p-arealist__item">
+              <div class="p-arealist__item__image">
+                <div class="c-image" style="background-image: url(img/area__06.jpg);"></div>
+              </div>
+              <div class="p-arealist__item__text">
+                <div class="c-text__lv4">東京</div>
+                <div class="c-text__lv3">車で15分</div>
+              </div>
+            </li>
+            <li class="p-arealist__item">
+              <div class="p-arealist__item__image">
+                <div class="c-image" style="background-image: url(img/area__07.jpg);"></div>
+              </div>
+              <div class="p-arealist__item__text">
+                <div class="c-text__lv4">東京</div>
+                <div class="c-text__lv3">車で15分</div>
+              </div>
+            </li>
+            <li class="p-arealist__item">
+              <div class="p-arealist__item__image">
+                <div class="c-image" style="background-image: url(img/area__08.jpg);"></div>
+              </div>
+              <div class="p-arealist__item__text">
+                <div class="c-text__lv4">東京</div>
+                <div class="c-text__lv3">車で15分</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 好きなところに暮らそう -->
+      <section class="p-home__section">
+        <div class="p-home__section__head">
+          <h3 class="c-text__lv3">好きなところに暮らそう</h3>
+        </div>
+        <div class="p-home__section__body">
+          <ul class="p-cardlist">
+            <li class="p-cardlist__item">
+              <div class="p-cardlist__item__image">
+                <div class="c-image" style="background-image: url(img/card__01.jpg);"></div>
+              </div>
+              <div class="p-cardlist__item__text">
+                <div class="c-text__lv4">自然に囲まれた宿泊先</div>
+              </div>
+            </li>
+            <li class="p-cardlist__item">
+              <div class="p-cardlist__item__image">
+                <div class="c-image" style="background-image: url(img/card__02.jpg);"></div>
+              </div>
+              <div class="p-cardlist__item__text">
+                <div class="c-text__lv4">自然に囲まれた宿泊先</div>
+              </div>
+            </li>
+            <li class="p-cardlist__item">
+              <div class="p-cardlist__item__image">
+                <div class="c-image" style="background-image: url(img/card__03.jpg);"></div>
+              </div>
+              <div class="p-cardlist__item__text">
+                <div class="c-text__lv4">自然に囲まれた宿泊先</div>
+              </div>
+            </li>
+            <li class="p-cardlist__item">
+              <div class="p-cardlist__item__image">
+                <div class="c-image" style="background-image: url(img/card__04.jpg);"></div>
+              </div>
+              <div class="p-cardlist__item__text">
+                <div class="c-text__lv4">自然に囲まれた宿泊先</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- ホスティングに挑戦しよう -->
+      <section class="p-home__section">
+        <div class="p-home__section__head">
+          
+        </div>
+        <div class="p-home__section__body">
+          <div class="p-box" style="background-image: url(img/box__01.jpg);">
+            <div class="p-box__text">
+              <h3 class="c-text__lv2">ホスティングに挑戦しよう</h3>
+              <p class="c-description__lv1">お部屋をシェアして、ゆとりある暮らしと新たな機会を。</p>    
+              <a href="" class="c-button c-button--white">さらに詳しく</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ユニークな体験 -->
+      <section class="p-home__section">
+        <div class="p-home__section__head">
+          <h3 class="c-text__lv3">ユニークな体験</h3>
+        </div>
+        <div class="p-home__section__body">
+          <ul class="p-cardlist">
+            <li class="p-cardlist__item">
+              <div class="p-cardlist__item__image">
+                <div class="c-image" style="background-image: url(img/card__05.jpg);"></div>
+              </div>
+              <div class="p-cardlist__item__text">
+                <div class="c-text__lv4">自然に囲まれた宿泊先</div>
+                <p class="c-description__lv3">説明文</p>
+              </div>
+            </li>
+            <li class="p-cardlist__item">
+              <div class="p-cardlist__item__image">
+                <div class="c-image" style="background-image: url(img/card__06.jpg);"></div>
+              </div>
+              <div class="p-cardlist__item__text">
+                <div class="c-text__lv4">自然に囲まれた宿泊先</div>
+                <p class="c-description__lv3">説明文</p>
+              </div>
+            </li>
+            <li class="p-cardlist__item">
+              <div class="p-cardlist__item__image">
+                <div class="c-image" style="background-image: url(img/card__07.jpg);"></div>
+              </div>
+              <div class="p-cardlist__item__text">
+                <div class="c-text__lv4">自然に囲まれた宿泊先</div>
+                <p class="c-description__lv3">説明文</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- フッター -->
+  <footer class="p-footer">
+    <div class="container">
+      <div class="p-footer__body">
+        <!-- item -->
+        <div class="p-footer__item">
+          <div class="p-footer__item__head">
+            企業
+          </div>
+          <div class="p-footer__item_body">
+            <ul class="p-footer__item__list"><a href="">Airbnbのご利用方法</a></ul>
+            <ul class="p-footer__item__list"><a href="">ニュースルーム</a></ul>
+            <ul class="p-footer__item__list"><a href="">株主・投資家のみなさまへ</a></ul>
+            <ul class="p-footer__item__list"><a href="">Airbnb Plus</a></ul>
+          </div>
+        </div>
+        <!-- item -->
+        <div class="p-footer__item">
+          <div class="p-footer__item__head">
+            企業
+          </div>
+          <div class="p-footer__item_body">
+            <ul class="p-footer__item__list"><a href="">Airbnbのご利用方法</a></ul>
+            <ul class="p-footer__item__list"><a href="">ニュースルーム</a></ul>
+            <ul class="p-footer__item__list"><a href="">株主・投資家のみなさまへ</a></ul>
+            <ul class="p-footer__item__list"><a href="">Airbnb Plus</a></ul>
+          </div>
+        </div>
+        <!-- item -->
+        <div class="p-footer__item">
+          <div class="p-footer__item__head">
+            企業
+          </div>
+          <div class="p-footer__item_body">
+            <ul class="p-footer__item__list"><a href="">Airbnbのご利用方法</a></ul>
+            <ul class="p-footer__item__list"><a href="">ニュースルーム</a></ul>
+            <ul class="p-footer__item__list"><a href="">株主・投資家のみなさまへ</a></ul>
+            <ul class="p-footer__item__list"><a href="">Airbnb Plus</a></ul>
+          </div>
+        </div>
+        <!-- item -->
+        <div class="p-footer__item">
+          <div class="p-footer__item__head">
+            企業
+          </div>
+          <div class="p-footer__item_body">
+            <ul class="p-footer__item__list"><a href="">Airbnbのご利用方法</a></ul>
+            <ul class="p-footer__item__list"><a href="">ニュースルーム</a></ul>
+            <ul class="p-footer__item__list"><a href="">株主・投資家のみなさまへ</a></ul>
+            <ul class="p-footer__item__list"><a href="">Airbnb Plus</a></ul>
+          </div>
+        </div>
+      </div>
+      <div class="p-footer__foot">
+        &copy; 2021 Airbnb, Inc.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
